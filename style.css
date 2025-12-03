@@ -167,6 +167,8 @@ button:hover{
     box-shadow: 0px 2px 4px rgb(0,0,0,0.4);
 }
 
+
+
 .category{
     height: 100px;
     width: 100px;
@@ -192,11 +194,18 @@ button:hover{
 #promotion{
     background-color: #8FABD4;
     height: 300px;
+    margin: 10px;
+    display: flex;
+}
+
+#promotion>img{
+    height: 300px;
+    width: 1007.200px;
 }
 
 #topdeal{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .block{
@@ -226,27 +235,137 @@ button:hover{
     margin: 5px;
 }
 
+.row>a>img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 9px rgb(0,0,0,0.4);
+}
+
 .column>a>img{
     height: 130px;
     width: 200px;
     margin: 5px;
 }
 
+.column>a>img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 9px rgb(0,0,0,0.4);
+}
+
 .products{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .pro-card{
     background-color: #4A70A9;
-    height: 450px;
-    width: 350px;
+    height: 350px;
+    width: 250px;
     margin: 10px;
-    box-shadow: 0px 2px 4px rgb(0,0,0,0.4);
+    box-shadow: 3px 4px 6px rgb(0,0,0,0.4);
+    border-radius: 20px;
+    
+}
+
+.pro-card>img{
+    margin: 24px 24px 0 24px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+.pro-card>p{
+    font-size: 15px;
+    margin-left: 24px;
+    color: white;
+}
+
+.pro-card>a>button{
+    width: 200px;
+    margin-left: 24px;
+    background-color:#EFECE3;
+    color: #4A70A9;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.pro-card>a>button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 9px rgb(0,0,0,0.4);
 }
 
 #footer{
     background-color: black;
     margin-top: 10px;
     height: 400px;
+    padding-top: 40px;
+    display: flex;
 }
+
+.foot1{
+    margin: 10px;
+    padding: 30px;
+    color: white;
+    height: 300px;
+    width: 450px;
+    border-right: 2px solid white;
+}
+
+.foot1>p,pre{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.foot1>input{
+    margin: 5px 0 5px 5px;
+    width: 280px;
+    border-radius: 10px 0 0 10px;
+}
+
+.foot1>button{
+    margin: 0;
+    background-color: white;
+    color: black;
+    height: 43.2px;
+    border-radius: 0 10px 10px 0;
+}
+
+.smlogo{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.smlogo>a>i{
+    color: white;
+}
+
+.foot2{
+    color: white;
+    height: 360px;
+    padding-left: 40px;
+    margin: 10px;
+    font-size: 15px;
+    display: flex;
+    gap: 90px;
+}
+
+.link1 > p>a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+}
+
+.link2 > p>a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+}
+
+.link3 > p>a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+}
+
