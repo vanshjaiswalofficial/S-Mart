@@ -192,12 +192,14 @@ button:hover{
 #promotion{
     background-color: black;
     height: 300px;
-    margin: 10px;
+    margin: 10px 10px 220px 10px;
     display: flex;
 }
 
 #promotion>img{
-    height: 300px;
+    height: 500px;
+    width: 1530px;
+    z-index: 1;
 }
 
 @media (max-width: 599px){
@@ -267,20 +269,16 @@ button:hover{
 
 .pro-card{
     background-color: black;
-    height: 350px;
-    width: 250px;
+    height: 400px;
+    width: 270px;
     margin: 5px;
     box-shadow: 3px 4px 6px rgb(0,0,0,0.4);
-    border-radius: 20px;
-    
 }
 
 .pro-card>img{
-    margin: 24px 24px 0 24px;
-    height: 200px;
-    width: 200px;
-    border-radius: 20px;
-
+    margin: 10px;
+    height: 250px;
+    width: 250px;
 }
 
 .pro-card>p{
@@ -291,7 +289,7 @@ button:hover{
 
 .pro-card>a>button{
     width: 200px;
-    margin-left: 24px;
+    margin: 10px 0px 0px 32px;
     background-color:whitesmoke;
     color: black;
     border-radius: 40px;
